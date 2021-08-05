@@ -1,0 +1,35 @@
+/*实现的功能：
+
+一、简要说明：
+1.int a 表示玩家时：0=自己；1=左侧；2=右侧
+2.int a 表示卡牌时： 黑桃：0-12；
+                   红桃：13-25；
+                   草花：26-38；
+                   方块：39-51；
+                   小王：52；大王：53,；大于53会返回卡背
+
+二、游戏流程方法：
+
+1.游戏开始：			startgame()
+2.a玩家开始地主叫分：		startcalllord(int a)
+3.a玩家成为地主：		setLord(int a)
+4.a玩家回合开始：		startturn(int a)
+5.a玩家叫分k：			calllordscore(int a,int k)	(a!=0)(k属于{0,1,2,3})	
+								*0玩家叫分由叫分按钮控制
+6.a玩家出牌card[],剩余手牌b张:	setChupaiqu(int a,int cards[],int b)	(a!=0)
+								*0玩家出牌由出牌按钮控制
+
+三、按钮方法：(应该添加与服务器的交互)
+
+1.出牌按钮：			setChupai()
+2.不出按钮：			setBuchu()
+3.叫分按钮(4个)：		setLordscore()	
+		
+四、其他方法：
+
+setrocket().start				//火箭动画
+
+int[] getchosencards()				//返回选中的卡牌
+int[] getremaincards()				//返回没选中的卡牌
+
+*/

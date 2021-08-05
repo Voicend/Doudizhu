@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/clientNet/Connect.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/clientNet/Recieve.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/clientNet/SendMes.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/login.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/说明.txt" charset="GBK" />
+  </component>
+</project>
